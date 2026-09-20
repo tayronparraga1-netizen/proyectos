@@ -1,0 +1,12 @@
+def calcular_area(largo, ancho):
+    area = largo * ancho
+    return area
+
+if __name__ == "__main__":
+    largo = 90
+    ancho = 78
+    area_rectangulo = calcular_area(largo, ancho)
+print("largo del rectangulo:", largo, "metros")
+print("ancho del rectangulo:", ancho, "metros")
+print("area del rectangulo:", area_rectangulo, "metros cuadrados")
+      
